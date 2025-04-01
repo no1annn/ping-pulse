@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Read version from external file
+VERSION=$(cat "$(dirname "$0")/VERSION" 2>/dev/null || echo "unknown")
+
+# Version flag support
+if [[ "$1" == "--version" || "$1" == "-v" ]]; then
+    echo "Ping Pulse v${VERSION}"
+    exit 0
+fi
+
 # ==================================================================
 #                             PING PULSE                            
 # ==================================================================
