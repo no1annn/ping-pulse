@@ -35,11 +35,11 @@ git clone https://github.com/no1annn/ping-pulse.git
 2️⃣ Make the script executable:
 ```bash
 cd ping-pulse
-chmod +x ping-pulse.sh
+chmod +x pingpulse.sh
 ```
 3️⃣ Run it!
 ```bash
-./ping-pulse.sh
+./pingpulse.sh
 ```
 
 ## 🌱 Contributing
