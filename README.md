@@ -1,5 +1,5 @@
 # Ping Pulse
-<img width="626" alt="image" src="https://github.com/user-attachments/assets/34eb6487-18de-4459-a912-f05005ffdf8c" />
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/3e5786f1-2741-4219-9119-bce6e9006b72" />
 
 ## 🎯 Description
 **Ping Pulse** is a lightweight, intuitive network diagnostic tool tailored for **macOS** users. It provides a clear, real-time visual of your network's health using standard Bash utilities. Through a progressive, layered testing approach, it reflects the actual structure of network connectivity.
@@ -15,10 +15,10 @@ Watch as a friendly ghost (👻) journeys through the five layers of your networ
 5. 🗺️ **DNS Resolution:** Verifies the ability to resolve domain names to IP addresses.
 
 ## 🌟 Key Features
-* 👀 **Visual Diagnostics:** Animated interface shows network connectivity tests in real-time.
+* 🎬 **Visual Diagnostics:** Animated interface shows network connectivity tests in real-time.
 * 🏗️ **Layered Approach:** Troubleshooting follows a logical sequence, mirroring real-world network architectures.
 * 🧩 **Ease of Use:** Works with standard bash utilities found on most Unix-like systems.
-* 📝 **Detailed Feedback:** Provides specific, actionable advice for fixing detected issues.
+* 📜 **Detailed Feedback:** Provides specific, actionable advice for fixing detected issues.
 * 🚨 **Special Case Detection:** Identifies router ICMP filtering and DNS alternative resolution.
 
 ## 📦 Dependencies
@@ -28,18 +28,18 @@ Watch as a friendly ghost (👻) journeys through the five layers of your networ
 * (Optional) `dig`/`nslookup` for enhanced DNS diagnostics
 
 ## 🛠 Installation
-1. Clone the repository:
+1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/nolannn/pingpulse.git
+git clone https://github.com/no1annn/ping-pulse.git
 ```
-2. Make the script executable:
+2️⃣ Make the script executable:
 ```bash
-cd pingpulse
-chmod +x pingpulse
+cd ping-pulse
+chmod +x ping-pulse.sh
 ```
-3. Run it!
+3️⃣ Run it!
 ```bash
-./pingpulse
+./ping-pulse.sh
 ```
 
 ## 🌱 Contributing
