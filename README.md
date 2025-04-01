@@ -35,7 +35,7 @@ Watch as a friendly ghost (👻) journeys through the five layers of your networ
     * **If failed:** Indicates issues with router internet access, firewall settings, or an ISP-level outage.
 
 ### ➟ 🗺️ DNS Resolution
-  * Verifies your system's ability to resolve domain names into IP addresses by attempting to resolve google.com through your configured DNS servers.
+  * Verifies your system's ability to resolve domain names into IP addresses by attempting to resolve `google.com` through your configured DNS servers.
 
     * **If failed:** Highlights DNS server unavailability or misconfiguration.
     * **Special Case:** Detects if alternative DNS resolution methods (like browser or OS cache, DNS over HTTPS, or ISP redirects) are compensating for primary DNS issues.
