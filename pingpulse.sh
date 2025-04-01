@@ -227,7 +227,6 @@ MSG_DNS_ALT_DETAIL="(OS caching / Browser caching / ISP redirection / DNS over H
 MSG_DNS_ALT_WORKS_NO_SERVERS="However, domain names are still being resolved through alternative mechanisms"
 MSG_DNS_ALT_SUCCESS="Your internet is functioning properly through an alternate DNS path"
 MSG_DNS_ALT_RESOLVED="Successfully resolved (via alternative): [DOMAIN][IP_INFO]"
-MSG_DNS_VERIFICATION_PROCESS="Verifying alternative DNS resolution mechanisms..."
 
 # Special case summary
 MSG_DNS_ALT_FINAL="🏷️ DNS resolution is working through alternative mechanisms"
@@ -400,9 +399,6 @@ get_special_symbol() {
 handle_pre_check_failure() {
     local check_type="${1}"
     local segment_num="${2}"
-    
-    # Set the tracking variable
-    PRE_CHECK_FAILURE="${check_type}"
 
     # Variables to show which test is running
     local description=""
@@ -1480,7 +1476,6 @@ run_ping_test_animated() {
         # 3. This is the Gateway Router test with timeout but internet isn't reachable
         #    (router is up but not properly forwarding traffic)
         failure_type=$(get_primary_failure_type "${ping_output}")
-        FAILURE_TYPE="${failure_type}"
 
         # Show failure indication and details
         animate_segment_completion "${seg_index}" false "${failure_type}"
